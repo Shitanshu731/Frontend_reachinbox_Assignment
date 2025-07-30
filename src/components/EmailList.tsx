@@ -1,8 +1,8 @@
 import React, { useState, useEffect, JSX } from "react";
 // import axios from "axios"; // No longer needed
 import { Email } from "../types";
-import { motion, AnimatePresence } from "framer-motion";
-import { SuggestedReply } from "./suggestedReply";
+import { AnimatePresence, motion } from "framer-motion";
+import { SuggestedReplies } from "./suggestedReply"; // Make sure to import it
 import emailData from "./emails.json"; // Import the JSON file directly
 
 export function EmailList(): JSX.Element {
@@ -207,11 +207,20 @@ export function EmailList(): JSX.Element {
                   margin: "20px 0",
                 }}
               />
-              <motion.p style={{ color: "#ddd", lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
+              <motion.p
+                style={{
+                  color: "#ddd",
+                  lineHeight: 1.6,
+                  whiteSpace: "pre-wrap",
+                }}
+              >
                 {selectedEmail.body || "Email body content not available..."}
               </motion.p>
-              {/* @ts-ignore */}
-              <SuggestedReply replies={selectedEmail.suggestedReplies || []} />
+
+              <SuggestedReplies
+                replies={selectedEmail.suggestedReplies || []}
+              />
+
               <motion.button
                 onClick={() => setSelectedId(null)}
                 whileHover={{ scale: 1.1, backgroundColor: "#0056b3" }}
