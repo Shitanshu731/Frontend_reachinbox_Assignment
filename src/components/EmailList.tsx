@@ -1,40 +1,33 @@
 import React, { useState, useEffect, JSX } from "react";
-import axios from "axios";
+// import axios from "axios"; // No longer needed
 import { Email } from "../types";
 import { motion, AnimatePresence } from "framer-motion";
 import { SuggestedReply } from "./suggestedReply";
+import emailData from "./emails.json"; // Import the JSON file directly
 
 export function EmailList(): JSX.Element {
   const [allEmails, setAllEmails] = useState<Email[]>([]);
   const [filteredEmails, setFilteredEmails] = useState<Email[]>([]);
   const [search, setSearch] = useState<string>("");
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading, setLoading] = useState<boolean>(false); // Set initial loading to false
   const [error, setError] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchEmails = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const response = await axios.get<Email[]>("/emails.json");
-        const formattedEmails = response.data.map((email) => ({
-          ...email,
-          id: `${email.account}-${email.id}`,
-          date: new Date(email.date),
-        }));
-        setAllEmails(formattedEmails);
-        setFilteredEmails(formattedEmails);
-      } catch (err) {
-        setError("Failed to fetch emails. Is emails.json in the public folder?");
-        console.error(err);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchEmails();
-  }, []);
+    // Process the imported data instead of fetching
+    try {
+      const formattedEmails = emailData.map((email: any) => ({
+        ...email,
+        id: `${email.account}-${email.id}`,
+        date: new Date(email.date),
+      }));
+      setAllEmails(formattedEmails);
+      setFilteredEmails(formattedEmails);
+    } catch (err) {
+      setError("Failed to process emails.json.");
+      console.error(err);
+    }
+  }, []); // Run only once on mount
 
   useEffect(() => {
     const lowercasedSearch = search.toLowerCase();
