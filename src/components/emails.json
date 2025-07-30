@@ -1,0 +1,401 @@
+[
+    {
+        "id": 1,
+        "subject": "Project Phoenix Kick-off",
+        "from": "alice@example.com",
+        "date": "2024-05-20T10:00:00Z",
+        "body": "Team, let's get together to kick off Project Phoenix. Agenda attached.",
+        "account": "work",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "Looking forward to it!",
+            "Thanks for the invite.",
+            "Will be there."
+        ]
+    },
+    {
+        "id": 2,
+        "subject": "Re: Q2 Marketing Report",
+        "from": "bob@example.com",
+        "date": "2024-05-20T09:30:00Z",
+        "body": "Thanks for the report. I have a few questions about the numbers.",
+        "account": "work",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "Happy to clarify. What are your questions?",
+            "Let's schedule a quick call to discuss.",
+            "Please send over your questions."
+        ]
+    },
+    {
+        "id": 3,
+        "subject": "Your booking is confirmed!",
+        "from": "confirm@booking.com",
+        "date": "2024-05-19T15:45:00Z",
+        "body": "Your meeting with Charlie is confirmed for May 21st at 2 PM.",
+        "account": "personal",
+        "aiCategory": "Meeting Booked",
+        "suggestedReplies": [
+            "Thanks for confirming.",
+            "Got it, thank you!",
+            "See you then."
+        ]
+    },
+    {
+        "id": 4,
+        "subject": "Weekly Newsletter",
+        "from": "newsletter@techweekly.com",
+        "date": "2024-05-19T12:00:00Z",
+        "body": "This week in tech: AI advancements, new gadgets, and more.",
+        "account": "personal",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": []
+    },
+    {
+        "id": 5,
+        "subject": "Unsubscribe from our list",
+        "from": "dave@example.com",
+        "date": "2024-05-18T18:20:00Z",
+        "body": "Please remove me from your mailing list. I am not interested.",
+        "account": "work",
+        "aiCategory": "Not Interested",
+        "suggestedReplies": [
+            "You have been unsubscribed.",
+            "Can you confirm your email address?",
+            "We're sorry to see you go."
+        ]
+    },
+    {
+        "id": 6,
+        "subject": "Out of Office: Vacation",
+        "from": "eve@example.com",
+        "date": "2024-05-18T11:00:00Z",
+        "body": "I am currently out of the office and will return on May 27th.",
+        "account": "work",
+        "aiCategory": "Out of Office",
+        "suggestedReplies": [
+            "Thanks for the heads up.",
+            "Enjoy your vacation!",
+            "Will follow up upon your return."
+        ]
+    },
+    {
+        "id": 7,
+        "subject": "You've won a prize!",
+        "from": "winner@lottery.com",
+        "date": "2024-05-18T08:00:00Z",
+        "body": "Click here to claim your exclusive prize. This is not a scam.",
+        "account": "personal",
+        "aiCategory": "Spam",
+        "suggestedReplies": [
+            "Mark as spam.",
+            "Delete forever."
+        ]
+    },
+    {
+        "id": 8,
+        "subject": "Follow-up on our conversation",
+        "from": "frank@example.com",
+        "date": "2024-05-17T16:50:00Z",
+        "body": "Hi, just wanted to follow up on our call from yesterday. Let me know your thoughts.",
+        "account": "work",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "Thanks for the follow-up. I'll get back to you shortly.",
+            "Let's discuss this further tomorrow.",
+            "I'm still reviewing the details."
+        ]
+    },
+    {
+        "id": 9,
+        "subject": "Your Amazon.com order #123-456",
+        "from": "orders@amazon.com",
+        "date": "2024-05-17T14:12:00Z",
+        "body": "Your order has shipped! It will arrive by Friday.",
+        "account": "personal",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": [
+            "Track package.",
+            "View order details."
+        ]
+    },
+    {
+        "id": 10,
+        "subject": "Meeting Reminder: Project Sync",
+        "from": "calendar@google.com",
+        "date": "2024-05-17T13:00:00Z",
+        "body": "This is a reminder for your meeting today at 2 PM.",
+        "account": "work",
+        "aiCategory": "Meeting Booked",
+        "suggestedReplies": [
+            "I'll be there.",
+            "Running a few minutes late.",
+            "Need to reschedule."
+        ]
+    },
+    {
+        "id": 11,
+        "subject": "Re: Your application",
+        "from": "hr@corp.com",
+        "date": "2024-05-16T17:00:00Z",
+        "body": "Thank you for your interest. At this time, we have decided to move forward with other candidates.",
+        "account": "personal",
+        "aiCategory": "Not Interested",
+        "suggestedReplies": [
+            "Thank you for the update.",
+            "I appreciate you letting me know."
+        ]
+    },
+    {
+        "id": 12,
+        "subject": "Weekend Plans?",
+        "from": "grace@friends.com",
+        "date": "2024-05-16T11:30:00Z",
+        "body": "Hey! What are you up to this weekend? Want to catch up?",
+        "account": "personal",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "I'm free! What did you have in mind?",
+            "Sounds great! How about Saturday?",
+            "Sorry, I have plans this weekend."
+        ]
+    },
+    {
+        "id": 13,
+        "subject": "Invoice #5678 Due",
+        "from": "billing@service.com",
+        "date": "2024-05-15T09:00:00Z",
+        "body": "Your invoice for $50.00 is due on May 22nd.",
+        "account": "work",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": [
+            "Pay now.",
+            "View invoice.",
+            "Remind me later."
+        ]
+    },
+    {
+        "id": 14,
+        "subject": "Auto-Reply: On Leave",
+        "from": "heidi@example.com",
+        "date": "2024-05-15T08:45:00Z",
+        "body": "Thank you for your message. I am on leave and will have limited access to email.",
+        "account": "work",
+        "aiCategory": "Out of Office",
+        "suggestedReplies": [
+            "Got it, thanks.",
+            "I'll wait for your return."
+        ]
+    },
+    {
+        "id": 15,
+        "subject": "URGENT: Action Required on Your Account",
+        "from": "security@not-a-bank.com",
+        "date": "2024-05-14T20:00:00Z",
+        "body": "We have detected suspicious activity on your account. Please login here to verify.",
+        "account": "personal",
+        "aiCategory": "Spam",
+        "suggestedReplies": [
+            "Report as phishing.",
+            "Delete and block sender."
+        ]
+    },
+    {
+        "id": 16,
+        "subject": "New login to your account",
+        "from": "no-reply@google.com",
+        "date": "2024-05-14T18:05:00Z",
+        "body": "A new device has logged into your account. If this wasn't you, please secure your account.",
+        "account": "personal",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": [
+            "That was me.",
+            "Secure my account."
+        ]
+    },
+    {
+        "id": 17,
+        "subject": "Let's schedule a demo",
+        "from": "sales@newtool.com",
+        "date": "2024-05-14T14:00:00Z",
+        "body": "I saw you visited our website and thought you might be interested in a demo of our product.",
+        "account": "work",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "Yes, I'm interested.",
+            "What times are you available?",
+            "Not at this time, thanks."
+        ]
+    },
+    {
+        "id": 18,
+        "subject": "Your interview is scheduled",
+        "from": "recruiter@techcorp.com",
+        "date": "2024-05-13T16:00:00Z",
+        "body": "We're pleased to invite you for an interview on May 20th. Please confirm your availability.",
+        "account": "personal",
+        "aiCategory": "Meeting Booked",
+        "suggestedReplies": [
+            "Confirmed. Thank you!",
+            "I'm available at that time.",
+            "I need to reschedule."
+        ]
+    },
+    {
+        "id": 19,
+        "subject": "Re: Collaboration proposal",
+        "from": "ivan@example.com",
+        "date": "2024-05-13T11:45:00Z",
+        "body": "Thanks for reaching out, but this is not a good fit for us at the moment.",
+        "account": "work",
+        "aiCategory": "Not Interested",
+        "suggestedReplies": [
+            "Thanks for letting me know.",
+            "I understand. Perhaps in the future."
+        ]
+    },
+    {
+        "id": 20,
+        "subject": "Happy Birthday!",
+        "from": "noreply@linkedin.com",
+        "date": "2024-05-12T08:00:00Z",
+        "body": "Hope you have a great day!",
+        "account": "personal",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": [
+            "Thanks!"
+        ]
+    },
+    {
+        "id": 21,
+        "subject": "OOO until Monday",
+        "from": "judy@example.com",
+        "date": "2024-05-10T17:30:00Z",
+        "body": "I will be out of office until Monday. I will respond to your message upon my return.",
+        "account": "work",
+        "aiCategory": "Out of Office",
+        "suggestedReplies": [
+            "Thanks for the notice.",
+            "Will do."
+        ]
+    },
+    {
+        "id": 22,
+        "subject": "Claim your free trial now!",
+        "from": "promo@get-stuff.com",
+        "date": "2024-05-10T12:00:00Z",
+        "body": "Your exclusive free trial is waiting for you. Don't miss out!",
+        "account": "personal",
+        "aiCategory": "Spam",
+        "suggestedReplies": [
+            "Unsubscribe.",
+            "Mark as spam."
+        ]
+    },
+    {
+        "id": 23,
+        "subject": "Quick question about your product",
+        "from": "potential-customer@client.com",
+        "date": "2024-05-09T15:20:00Z",
+        "body": "Hi, I'm interested in your services and had a quick question before I sign up.",
+        "account": "work",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "I'd be happy to help. What's your question?",
+            "Let's set up a call to discuss.",
+            "Thanks for your interest!"
+        ]
+    },
+    {
+        "id": 24,
+        "subject": "Your flight check-in is open",
+        "from": "checkin@airline.com",
+        "date": "2024-05-09T10:00:00Z",
+        "body": "You can now check in for your flight to San Francisco.",
+        "account": "personal",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": [
+            "Check in now.",
+            "View boarding pass."
+        ]
+    },
+    {
+        "id": 25,
+        "subject": "Rescheduling our meeting",
+        "from": "assistant@corp.com",
+        "date": "2024-05-08T14:00:00Z",
+        "body": "Can we move our meeting from 2 PM to 3 PM tomorrow?",
+        "account": "work",
+        "aiCategory": "Meeting Booked",
+        "suggestedReplies": [
+            "Yes, that works for me.",
+            "Sorry, I'm not available then. How about 4 PM?",
+            "Let me check my calendar."
+        ]
+    },
+    {
+        "id": 26,
+        "subject": "Not the right time",
+        "from": "lead@prospect.com",
+        "date": "2024-05-08T11:00:00Z",
+        "body": "Thanks for the information, but we're not looking to make any changes right now.",
+        "account": "work",
+        "aiCategory": "Not Interested",
+        "suggestedReplies": [
+            "Thank you for your time.",
+            "I understand. I'll check back in a few months."
+        ]
+    },
+    {
+        "id": 27,
+        "subject": "Automatic reply: Away",
+        "from": "karl@example.com",
+        "date": "2024-05-07T09:00:00Z",
+        "body": "I am away from my desk with no access to email. I will reply as soon as possible.",
+        "account": "work",
+        "aiCategory": "Out of Office",
+        "suggestedReplies": [
+            "Noted, thank you."
+        ]
+    },
+    {
+        "id": 28,
+        "subject": "You are a winner of our monthly draw",
+        "from": "lucky@winner-circle.com",
+        "date": "2024-05-06T18:00:00Z",
+        "body": "Congratulations! You have won. Please provide your bank details to receive the prize.",
+        "account": "personal",
+        "aiCategory": "Spam",
+        "suggestedReplies": [
+            "Report phishing.",
+            "Delete immediately."
+        ]
+    },
+    {
+        "id": 29,
+        "subject": "Feedback on your presentation",
+        "from": "manager@example.com",
+        "date": "2024-05-06T16:30:00Z",
+        "body": "Great job on the presentation today. Let's chat tomorrow about a few minor points.",
+        "account": "work",
+        "aiCategory": "Interested",
+        "suggestedReplies": [
+            "Thanks! Looking forward to your feedback.",
+            "Sounds good. What time works for you?",
+            "Appreciate it!"
+        ]
+    },
+    {
+        "id": 30,
+        "subject": "Your monthly statement is ready",
+        "from": "statement@bank.com",
+        "date": "2024-05-05T09:00:00Z",
+        "body": "Your credit card statement for April is now available to view online.",
+        "account": "personal",
+        "aiCategory": "Uncategorized",
+        "suggestedReplies": [
+            "View statement.",
+            "Pay bill."
+        ]
+    }
+]
